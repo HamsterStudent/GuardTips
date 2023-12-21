@@ -1,10 +1,27 @@
-# GuardTips
+# [GuardTips](https://guard-tips.vercel.app/)
+![비사이드_인스타_01](https://github.com/HamsterStudent/GuardTips/assets/60914441/b8a3e94e-551b-4034-be10-0933d6bc56e7)
 
-## Wireframe
+내 위치에서 가까운 대피소 정보를 안내해 주는 지도 기반 웹서비스
+2023.09.14 - 2023.09.28 (약 2주)
 
-와이어 프레임 [here](https://www.figma.com/file/FQdtT5qxDrRssolskPIbPc/%EA%B0%80%EB%93%9C%ED%8C%81%EC%8A%A4?type=design&node-id=0-1&mode=design&t=NvYXQpzFnGzKmQKK-0).
+### 팀원 구성
+
+3명 (FE 2명, BE 1명, Design 1명)
+
+### 담당 업무
+- 협업시 클래스 중복 사용을 방지하고, 컴포넌트별 유지보수를 용이하게 하기 위해 styled-components를 사용하였습니다.
+- 가독성을 높이고 오류를 미리 찾아 안정적인 코드 작성을 위해 TypeScript를 사용하였습니다.
+- json으로 변한하는 과정을 축소시켜 간결한 코드를 만들고, 크로스 브라우징 최적화를 위헤 Axios 으로 API를 연동하였습니다.
+- 웹서비스 전체 스타일링과 크로스브라우징을 전담하였습니다.
+- Recoil을 사용하여 전역 상태를 관리하였습니다.
+- 대피소, 급수시설, 병원 등의 옵션을 필터링 해 주는 기능을 구현했습니다.
+  - DB에 저장된 카페 정보를 API 형태로 받아온 후, 키워드로 필터링을 통해 옵션에 맞는 장소 제공
+  - 선택 옵션에 기반하여 상이한 형태의 지도 마커 랜더링
+- 지도 상의 위도와 경도를 계산하여, 현위치에서 제일 가까운 대피소나, 급수시설 정보 제공 기능을 구현하였습니다
+- Custom Hook을 제작하여 코드를 모듈화하여 코드를 간결하게 만들었습니다.
+- CROS 이슈를 proxy를 사용하는 방식으로 해결하였습니다.
+  - 배포 환경, develop환경, api 통신의 프로토콜이 상이한 상황에서, proxy를 사용하여 배포를 진행하고 API 연동
 
 # 사용 라이브러리
-
 - react-router-dom
 - styled-components
