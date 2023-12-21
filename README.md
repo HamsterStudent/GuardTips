@@ -1,7 +1,9 @@
 # [GuardTips](https://guard-tips.vercel.app/)
-![비사이드_인스타_01](https://github.com/HamsterStudent/GuardTips/assets/60914441/b8a3e94e-551b-4034-be10-0933d6bc56e7){: width="300"}
+![비사이드_인스타_01](https://github.com/HamsterStudent/GuardTips/assets/60914441/b8a3e94e-551b-4034-be10-0933d6bc56e7)
 
 내 위치에서 가까운 대피소 정보를 안내해 주는 지도 기반 웹서비스
+
+[DEMO]((https://guard-tips.vercel.app/)
 
 ### 기간
 2023.09.14 - 2023.09.28 (약 2주)
