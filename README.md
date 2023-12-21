@@ -3,7 +3,7 @@
 
 내 위치에서 가까운 대피소 정보를 안내해 주는 지도 기반 웹서비스
 
-[DEMO]((https://guard-tips.vercel.app/)
+[DEMO](https://guard-tips.vercel.app/)
 
 ### 기간
 2023.09.14 - 2023.09.28 (약 2주)
